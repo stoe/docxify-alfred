@@ -18,5 +18,9 @@ $ npm install --global docxify-alfred
 In Alfred, type `doctools`, search for the file to convert and hit <kbd>Enter</kbd>.
 
 
+## Related
+- [https://github.com/stoe/docxify-node](https://github.com/stoe/docxify-node)
+
+
 ## License [![license](https://img.shields.io/github/license/stoe/docxify-alfred.svg)](https://github.com/stoe/docxify-alfred/blob/master/license)
 MIT © [Stefan Stölzle](https://github.com/stoe)
