@@ -15,7 +15,7 @@ $ npm install --global docxify-alfred
 
 ## Usage
 
-In Alfred, type `doctools`, search for the file to convert and hit <kbd>Enter</kbd>.
+In Alfred, type `docxify`, search for the file to convert and hit <kbd>Enter</kbd>.
 
 
 ## Related
