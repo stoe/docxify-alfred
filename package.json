@@ -41,20 +41,20 @@
   "dependencies": {
     "alfred-notifier": "^0.2.0",
     "alfy": "^0.6.0",
-    "docxify-node": "^1.1.0",
+    "docxify-node": "^1.2.0",
     "execa": "^0.6.3",
-    "opn": "^4.0.2",
+    "opn": "^5.0.0",
     "ora": "^1.2.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
+    "ava": "^0.19.1",
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "xo": "^0.18.1"
+    "xo": "^0.18.2"
   },
   "ava": {
     "files": [
