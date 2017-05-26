@@ -13,7 +13,7 @@
     "docxify-node"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/stoe/docxify-alfred#readme",
+  "homepage": "https://github.com/stoelzle/docxify-alfred#readme",
   "author": {
     "name": "Stefan Stölzle",
     "email": "stoe@github.com",
@@ -21,7 +21,7 @@
   },
   "repository": "stoe/docxify-alfred",
   "bugs": {
-    "url": "https://github.com/stoe/docxify-alfred/issues"
+    "url": "https://github.com/stoelzle/docxify-alfred/issues"
   },
   "engines": {
     "node": ">=6"
