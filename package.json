@@ -55,7 +55,8 @@
     "eslint-plugin-node": "^4.2.3",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "xo": "^0.18.2"
+    "xo": "^0.18.2",
+    "snyk": "^1.50.0"
   },
   "ava": {
     "files": [
