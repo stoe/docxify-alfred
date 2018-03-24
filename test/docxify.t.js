@@ -13,8 +13,8 @@ test.beforeEach(t => {
 test.afterEach(t => {
   const file = t.context.testDocx;
 
-  fs.exists(file, exists => {
-    if (exists) {
+  fs.access(file, fs.constants.F_OK, err => {
+    if (!err) {
       fs.unlinkSync(file);
     }
   });
