@@ -1,6 +1,6 @@
 {
-  "name": "docxify-alfred",
-  "version": "1.0.6",
+  "name": "@stoelzle/docxify-alfred",
+  "version": "1.1.0",
   "description": "Alfred workflow to convert markdown to DOCX",
   "keywords": [
     "alfred",
@@ -17,18 +17,21 @@
   "author": {
     "name": "Stefan Stölzle",
     "email": "stoe@github.com",
-    "url": "github.com/stoe"
+    "url": "https://github.com/stoe"
   },
-  "repository": "stoe/docxify-alfred",
+  "repository": "git@github.com:stoelzle/docxify-alfred.git",
   "bugs": {
     "url": "https://github.com/stoelzle/docxify-alfred/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">=10",
+    "npm": ">=6"
   },
   "scripts": {
-    "test": "xo && ava -v",
+    "test": "eslint '**/*.js' && ava -v",
     "postinstall": "script/setup && alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -40,32 +43,26 @@
     "readme.md"
   ],
   "dependencies": {
-    "alfred-notifier": "^0.2.3",
-    "alfy": "^0.7.0",
-    "docxify-node": "^1.3.2",
-    "execa": "^0.10.0",
-    "opn": "^5.3.0",
-    "ora": "^2.1.0"
+    "@stoelzle/docxify-node": "1.4.0",
+    "alfy": "^0.8.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
-    "ava": "^0.25.0",
-    "eslint": "^5.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "xo": "^0.21.1"
+    "ava": "^1.4.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "execa": "^1.0.0",
+    "prettier": "^1.16"
   },
   "resolutions": {
-    "eslint-scope": "3.7.1"
+    "eslint-scope": "3.7.1",
+    "lodash": "^4.17.5"
   },
   "ava": {
     "files": [
       "test/*.t.js"
     ]
-  },
-  "xo": {
-    "space": 2
   }
 }
